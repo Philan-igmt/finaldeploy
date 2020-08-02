@@ -1,0 +1,48 @@
+.cartbtn {
+  margin: 0 auto;
+  /* margin-left: 45%; */
+  background-color: red;
+  padding: 20px;
+  color: white;
+}
+
+.cartbtn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.card {
+  border: tomato 2px solid;
+  padding: 10px;
+}
+
+.delete {
+  background-color: red;
+  margin: 10px 0;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  border: tomato 2px solid;
+}
+
+.span {
+  padding: 20px;
+  font-size: x-large;
+}
+
+.formm {
+  margin-top: 30px;
+}
+
+.card {
+  width: 325px;
+}
+
+.center {
+  padding-top: 10px;
+}

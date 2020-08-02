@@ -1,0 +1,15 @@
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2013/06/20/04/40/thank-you-140227_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}

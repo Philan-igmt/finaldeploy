@@ -1,0 +1,23 @@
+.footer {
+  margin: 0 auto;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  color: white;
+  background-color: gray;
+  padding-top: 30px;
+}
+
+.wholefooter {
+  background-color: gray;
+}
+
+.lcLogo {
+  width: 400px;
+  height: 100px;
+}
+
+.material-icons {
+  text-shadow: 0;
+}

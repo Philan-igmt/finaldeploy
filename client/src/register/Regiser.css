@@ -1,0 +1,13 @@
+.form {
+  width: 50%;
+}
+
+.allform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}

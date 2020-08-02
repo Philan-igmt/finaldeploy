@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://specials-images.forbesimg.com/imageserve/1059422276/960x0.jpg?cropX1=0&cropX2=7952&cropY1=782&cropY2=5258");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+.red-text {
+  font-weight: 400;
+  text-shadow: 1px 1px 1px white, 1px 2px 1px white, 1px 3px 1px white,
+    1px 4px 1px white, 1px 5px 1px white, 1px 6px 1px white, 1px 7px 1px white;
+}
+.thiss {
+  font-weight: 400;
+  text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black,
+    1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black, 1px 7px 1px white;
+}
+
+.shopnow {
+  color: white;
+  font-weight: 1000;
+}

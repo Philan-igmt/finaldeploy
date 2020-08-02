@@ -1,0 +1,19 @@
+.backend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.list {
+  border: black 2px dotted;
+  padding: 20px;
+}
+
+.addproduct {
+  margin: 20px 20px;
+}
