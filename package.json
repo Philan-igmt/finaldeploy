@@ -1,7 +1,7 @@
 {
   "name": "backend",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,11 @@
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
   },
   "author": "Philani",
   "license": "ISC",
